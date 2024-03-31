@@ -1,0 +1,92 @@
+.box.form-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%; /* Menjadikan box.form-box lebar 100% */
+    box-sizing: border-box; /* Untuk mempertahankan padding dalam perhitungan lebar */
+}
+
+.box.form-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Mengurangi margin bottom menjadi 10px */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btna {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #00ff00; /* Warna latar belakang hijau */
+    color: #fff; /* Warna teks putih */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btna:hover {
+    background-color: #00cc00; /* Warna latar belakang hijau saat hover */
+}
+
+.btnb {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #ff0000; /* Warna latar belakang merah */
+    color: #fff; /* Warna teks putih */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnb:hover {
+    background-color: #cc0000; /* Warna latar belakang merah saat hover */
+}
+
+.btnc {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btna:hover,
+.btnb:hover,
+.btnc:hover {
+    background-color: #0056b3;
+}
